@@ -154,25 +154,40 @@ Mocha’s built-in console report is used, which meets assignment requirements.
 # 📂 Project Structure
 
 ```bash
-a1qa-assignment/
+A1QA-ASSIGNMENT/
+│
+├── mobile/
+│   ├── config/
+│   │   └── android.caps.js
+│   │
+│   ├── page-objects/
+│   │   ├── allNotes.screen.js
+│   │   └── noteEditor.screen.js
+│   │
+│   ├── tests/
+│   │   ├── noteCreation.spec.js
+│   │   └── pingDevice.spec.js
+│   │
+│   ├── package.json
+│   └── package-lock.json
+│
+├── page-objects/
+│   ├── aboutSteam.page.js
+│   ├── gameDetails.page.js
+│   ├── searchResults.page.js
+│   └── steamHome.page.js
 │
 ├── tests/
 │   └── steam.spec.js
-├── page-objects/
-│   ├── steamHome.page.js
-│   ├── gameDetails.page.js
-│   └── aboutSteam.page.js
 │
-└── mobile/
-    ├── config/android.caps.js
-    ├── tests/pingDevice.spec.js
-    └── tests/noteCreation.spec.js
-
+├── playwright.config.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
 ```
 
-
 ---
-
 
 # ✔️ Notes
 
