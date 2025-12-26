@@ -1,6 +1,6 @@
-# 📌 A1QA Assignment – Web & Mobile Automation
+# 📌 Test Assignment – Web & Mobile Automation
 
-This repository contains the implementation of both tasks requested in the **A1QA** technical assignment:
+This repository contains the implementation of both tasks requested in a technical assignment:
 
 **Test Case 1** (WEB): Steam – Search & Validation using **Playwright**
 
